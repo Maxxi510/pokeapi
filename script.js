@@ -18,8 +18,8 @@ function mostrarPokemon(datosPokemon, contenedorNumero){
     <h2 class="pk-name">${datosPokemon.name.toUpperCase()}</h2>
     <img class="pk-img" src="${datosPokemon.sprites.other["official-artwork"].front_default}">
     <p>Numero:${datosPokemon.id}</p>
-    <p>weight:${datosPokemon.weight/10}Kg</p>
-    <p>height:${datosPokemon.height/10}m</p>    
+    <p>Peso:${datosPokemon.weight/10}Kg</p>
+    <p>Altura:${datosPokemon.height/10}m</p>    
     `
 }
 // Error en busqueda de pokemon
