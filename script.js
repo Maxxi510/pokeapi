@@ -10,3 +10,10 @@ function buscarPokemon(contenedorNumero){
     .catch(()=> mostrarError(contenedorNumero))   
 }
 //Mostrar informacion del Pokemon
+
+function mostrarPokemon(datosPokemon, contenedorNumero){
+    let infoDivId=`pokemoninfo${contenedorNumero}`;
+    let infoDiv = document.getElementById(infoDivId);
+    infoDiv.innerHTML = `
+    <h2>${datosPokemon.name.toUpperCase()}</h2>`
+}
