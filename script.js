@@ -31,3 +31,11 @@ function mostrarError(contenedorNumero){
 
     `
 }
+// Mostrar pokemon inicial
+
+window.onload = function(){
+    document.getElementById("pokemonimput1").value = "133";
+    buscarPokemon(1);
+    document.getElementById("pokemonimput2").value = "136";
+    buscarPokemon(2);
+}
